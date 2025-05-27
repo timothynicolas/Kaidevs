@@ -3,13 +3,10 @@
     justify-content: space-between;
     align-items: center;
     height: 6rem;
-    background-color: white;
     transition: box-shadow 0.3s ease;
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(10px);
 }
 
 .navbar-container{
@@ -18,12 +15,10 @@
     transition: box-shadow 0.5s ease;
     background-color: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(10px);
-    
-
 }
 
 .navbar-shadow{
-    box-shadow: 0 0 64px 0 rgba(59, 71, 103, 0.08);
+    box-shadow: 0 0 32px 0 rgba(59, 71, 103, 0.08);
 }
 
 .navbar .logo{

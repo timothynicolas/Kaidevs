@@ -33,8 +33,7 @@
         
     </div>
 
-    
-    <div class="container navbar-shadow">
+    <div class="container">
         <div class="grid-container">
 
             <section class="hero-image-container">
@@ -59,9 +58,6 @@
             </div>
 
 
-
-
-            <div style="height: 1000px; background-color: red">HAAAAAAAAAAAtdog?</div>
         </div> <!-- grid-container -->
     </div> <!-- container -->
 
