@@ -1,5 +1,6 @@
 @import url('navbar.css');
 @import url('hero.css');
+@import url('about.css');
 
 *{
     margin: 0;
@@ -16,10 +17,12 @@
 .grid-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 24rem 18rem;
+    grid-template-rows: 24rem 18rem 24rem 24rem;
     grid-template-areas: 
     'hero-img hero-img hero-img hero-img'
     'hero-text hero-text hero-text hero-text'
+    'about-img about-img about-img about-img'
+    'about-text about-text about-text about-text'
     
     
     
@@ -45,11 +48,13 @@
 @media(min-width: 640px){
     .grid-container{
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: 24rem 18rem;
+        grid-template-rows: 24rem 18rem 24rem 24rem;
         grid-template-areas: 
        
         'hero-img hero-img hero-img hero-img hero-img hero-img'
         'hero-text hero-text hero-text hero-text hero-text hero-text'
+        'about-img about-img about-img about-img about-img about-img'
+        'about-text about-text about-text about-text about-text about-text'
         
         
         
@@ -67,10 +72,11 @@
     }
     .grid-container{
         grid-template-columns: repeat(8, 1fr);
-        grid-template-rows:24rem;
+        grid-template-rows:24rem 24rem;
         grid-template-areas: 
         
         'hero-text hero-text hero-text hero-text hero-img hero-img hero-img hero-img'
+        'about-img about-img about-img about-img about-text about-text about-text about-text'
         
         
         
@@ -87,10 +93,11 @@
 
     .grid-container{
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows:24rem;
+        grid-template-rows:24rem 24rem;
         grid-template-areas: 
         
         'hero-text hero-text hero-text hero-text hero-text hero-text hero-img hero-img hero-img hero-img hero-img hero-img'
+        'about-img about-img about-img about-img about-img about-img about-text about-text about-text about-text about-text about-text'
         
         
         

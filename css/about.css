@@ -1,0 +1,23 @@
+.about-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: about-img;
+}
+
+.about-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 1.5;
+    align-items:center;
+    text-align: center;
+    grid-area: about-text;
+}
+
+@media(min-width: 768px){
+    .about-text-container{
+        align-items: start;
+        text-align: start;
+    }
+}
