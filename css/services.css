@@ -15,15 +15,17 @@
   position: relative;
   width: 100%;
   max-width: 800px;
-  overflow: hidden;
-  border-radius: 20px;
-  border: 2px solid #D5DFFF;
+  /* overflow: hidden; */
+  overflow-x: auto;
+  /* border-radius: 20px; */
+  /* border: 2px solid red; */
   /* box-shadow: 0 0 15px rgba(0,0,0,0.1); */
   /* background-color: transparent; */
 }
 
 .carousel-track {
   display: flex;
+  /* gap: 10px; */
   transition: transform 0.5s ease-in-out;
 }
 
@@ -35,8 +37,9 @@
   padding: 40px 25px;
   text-align: start;
   background-color: #fafbff;
+  border-radius: 20px;
   /* border-right: 1px solid #cbd5e1; */
-  /* border: 2px solid #D5DFFF; */
+  border: 2px solid #D5DFFF;
 }
 
 .carousel-item hr{
