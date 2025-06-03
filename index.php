@@ -69,13 +69,443 @@
                 <p class="subheader"></p>We’re not just developers—we’re growth partners. Whether you're a startup, a small business, or an enterprise, we build websites that adapt to your goals and scale with your success.</p>
             </section>
 
-            </div>
+            <section class="services-text-container">
+                <p class="secondary-header">Our <span class="primary-header underline">Services</span></p>
+            </section>
+
+            <section class="services-carousel-container">
+                <div class="carousel-container">
+                    <button id="prevBtn" class="nav-btn">‹</button>
+
+                    <div class="carousel-track">
+
+                        <!-- PACKAGE 1-->
+
+                        <div class="carousel-item">
+                            <div class="service-description">
+                                <p class="title">Website Design</p>
+                                <p>Already have a developer? We'll handle the design for you!</p>
+                                <p>We create a custom website design that reflects your brand's personality—delivered in clean, organized Figma design file.</p>
+
+                                <button class="service-btn">Choose Plan</button>
+                            </div>
+                           
+                            <hr>
+
+                            <div class="design-inclusions">
+                                <p class="subtitle">Design</p>
+                                <div class="item">
+                                    <img class="check" src="assets/services-check.svg">
+                                    <p>Wireframes & Layout Structure</p>
+                                </div>
+                                <div class="item">
+                                    <img class="check" src="assets/services-check.svg">
+                                    <p>High-fidelity Figma Mockup</p>
+                                </div>
+                                <div class="item">
+                                    <img class="check" src="assets/services-check.svg">
+                                    <p>Mobile & Desktop Design</p>
+                                </div>
+                                <div class="item">
+                                    <img class="check" src="assets/services-check.svg">
+                                    <p>Font & Color Palette Selection</p>
+                                </div>
+                                <div class="item">
+                                    <img class="check" src="assets/services-check.svg">
+                                    <p>Brand-consistent Visuals</p>
+                                </div>
+
+                            </div>
+
+                            <div class="development-inclusions">
+                                <p class="subtitle">Development</p>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>HTML5, CSS3, and JavaScript</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Responsive Layout</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Basic Animations</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Dev-ready File Layoff</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>1-year Website Hosting</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Custom Domain Name</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Basic SEO</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Website SEO Certificate</p>
+                                </div>
+                            </div>
+                            <div class="advanced-inclusions hidden">
+                                <p class="subtitle">Advanced</p>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Admin Dashboard Panel</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Account Management</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>E-commerce Functionality </p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Online Booking System</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Database Integration</p>
+                                </div>
+                                
+                            </div>
+                            <button class="expand" data-expanded="false">
+                                See all inclusions
+                                <img src="assets/services-angle-down.svg">
+                            </button>
+
+                        </div>
+
+                        <!-- PACKAGE 2 -->
+
+                        <div class="carousel-item">
+                            <div class="service-description">
+                                <p class="title">Website Development</p>
+                                <p>Already got a design? We'll bring it to life!</p>
+                                <p>You provife the design—we'll handle the responsive, pixel-accurate front-end code. Ideal for static sites or dev handoff.</p>
+
+                                <button class="service-btn">Choose Plan</button>
+                            </div>
+                           
+                            <hr>
+
+                            <div class="design-inclusions">
+                                <p class="subtitle">Design</p>
+                                <div class="item">
+                                    <img class="check" src="assets/services-xmark.svg">
+                                    <p>Wireframes & Layout Structure</p>
+                                </div>
+                                <div class="item">
+                                    <img class="check" src="assets/services-xmark.svg">
+                                    <p>High-fidelity Figma Mockup</p>
+                                </div>
+                                <div class="item">
+                                    <img class="check" src="assets/services-xmark.svg">
+                                    <p>Mobile & Desktop Design</p>
+                                </div>
+                                <div class="item">
+                                    <img class="check" src="assets/services-xmark.svg">
+                                    <p>Font & Color Palette Selection</p>
+                                </div>
+                                <div class="item">
+                                    <img class="check" src="assets/services-xmark.svg">
+                                    <p>Brand-consistent Visuals</p>
+                                </div>
+
+                            </div>
+
+                            <div class="development-inclusions">
+                                <p class="subtitle">Development</p>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>HTML5, CSS3, and JavaScript</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Responsive Layout</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Basic Animations</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Dev-ready File Layoff</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>1-year Website Hosting</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Custom Domain Name</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Basic SEO</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Website SEO Certificate</p>
+                                </div>
+                            </div>
+                            <div class="advanced-inclusions hidden">
+                                <p class="subtitle">Advanced</p>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Admin Dashboard Panel</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Account Management</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>E-commerce Functionality </p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Online Booking System</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Database Integration</p>
+                                </div>
+                                
+                            </div>
+                            <button class="expand" data-expanded="false">
+                                See all inclusions
+                                <img src="assets/services-angle-down.svg">
+                            </button>
+
+                        </div>
+
+                        <!-- PACKAGE 3-->
+
+                        <div class="carousel-item">
+                            <div class="service-description">
+                                <p class="title">Complete Website Build</p>
+                                <p>We design and code the website for you. Simple and easy.</p>
+                                <p>We handle both the website design and development. Great for portfolios, landing pages, and basic business sites.</p>
+
+                                <button class="service-btn">Choose Plan</button>
+                            </div>
+                           
+                            <hr>
+
+                            <div class="design-inclusions">
+                                <p class="subtitle">Design</p>
+                                <div class="item">
+                                    <img class="check" src="assets/services-check.svg">
+                                    <p>Wireframes & Layout Structure</p>
+                                </div>
+                                <div class="item">
+                                    <img class="check" src="assets/services-check.svg">
+                                    <p>High-fidelity Figma Mockup</p>
+                                </div>
+                                <div class="item">
+                                    <img class="check" src="assets/services-check.svg">
+                                    <p>Mobile & Desktop Design</p>
+                                </div>
+                                <div class="item">
+                                    <img class="check" src="assets/services-check.svg">
+                                    <p>Font & Color Palette Selection</p>
+                                </div>
+                                <div class="item">
+                                    <img class="check" src="assets/services-check.svg">
+                                    <p>Brand-consistent Visuals</p>
+                                </div>
+
+                            </div>
+
+                            <div class="development-inclusions">
+                                <p class="subtitle">Development</p>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>HTML5, CSS3, and JavaScript</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Responsive Layout</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Basic Animations</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Dev-ready File Layoff</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>1-year Website Hosting</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Custom Domain Name</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Basic SEO</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Website SEO Certificate</p>
+                                </div>
+                            </div>
+                            <div class="advanced-inclusions hidden">
+                                <p class="subtitle">Advanced</p>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Admin Dashboard Panel</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Account Management</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>E-commerce Functionality </p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Online Booking System</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-xmark.svg">
+                                    <p>Database Integration</p>
+                                </div>
+                                
+                            </div>
+                            <button class="expand" data-expanded="false">
+                                See all inclusions
+                                <img src="assets/services-angle-down.svg">
+                            </button>
+
+                        </div>
+
+                        <!-- PACKAGE 4 -->
+
+                        <div class="carousel-item">
+                            <div class="service-description">
+                                <p class="title">Business Website Build</p>
+                                <p>Design, code, and advanced features—all in one.</p>
+                                <p>This all-in-one package combines design, development, and powerful tools like booking and online stores.</p>
+
+                                <button class="service-btn">Choose Plan</button>
+                            </div>
+                           
+                            <hr>
+
+                            <div class="design-inclusions">
+                                <p class="subtitle">Design</p>
+                                <div class="item">
+                                    <img class="check" src="assets/services-check.svg">
+                                    <p>Wireframes & Layout Structure</p>
+                                </div>
+                                <div class="item">
+                                    <img class="check" src="assets/services-check.svg">
+                                    <p>High-fidelity Figma Mockup</p>
+                                </div>
+                                <div class="item">
+                                    <img class="check" src="assets/services-check.svg">
+                                    <p>Mobile & Desktop Design</p>
+                                </div>
+                                <div class="item">
+                                    <img class="check" src="assets/services-check.svg">
+                                    <p>Font & Color Palette Selection</p>
+                                </div>
+                                <div class="item">
+                                    <img class="check" src="assets/services-check.svg">
+                                    <p>Brand-consistent Visuals</p>
+                                </div>
+
+                            </div>
+
+                            <div class="development-inclusions">
+                                <p class="subtitle">Development</p>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>HTML5, CSS3, and JavaScript</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Responsive Layout</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Basic Animations</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Dev-ready File Layoff</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>1-year Website Hosting</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Custom Domain Name</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Basic SEO</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Website SEO Certificate</p>
+                                </div>
+                            </div>
+                            <div class="advanced-inclusions hidden">
+                                <p class="subtitle">Advanced</p>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Admin Dashboard Panel</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Account Management</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>E-commerce Functionality </p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Online Booking System</p>
+                                </div>
+                                <div class="item">
+                                    <img class="xmark" src="assets/services-check.svg">
+                                    <p>Database Integration</p>
+                                </div>
+                                
+                            </div>
+                            <button class="expand" data-expanded="false">
+                                See all inclusions
+                                <img src="assets/services-angle-down.svg">
+                            </button>
+                        </div>
+                    </div>
+
+                    <button id="nextBtn" class="nav-btn">›</button>
+                </div>
+            </section>
+
+            </div>  <!-- idk para san to, but the code breaks when u remove it -->
 
 
         </div> <!-- grid-container -->
     </div> <!-- container -->
 
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
