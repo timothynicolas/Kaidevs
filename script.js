@@ -7,7 +7,8 @@ const items = document.querySelectorAll('.carousel-item');
 const totalItems = items.length;
 
 function updateCarousel() {
-  const width = items[0].clientWidth;
+  // const width = items[0].clientWidth;
+  const width = items[0].offsetWidth;
   track.style.transform = `translateX(-${currentIndex * width}px)`;
 }
 
@@ -55,4 +56,6 @@ toggleBtns.forEach((btn) => {
 });
 
 
+const sampol = document.querySelector('.services-carousel-container');
+console.log(sampol.clientWidth);
 

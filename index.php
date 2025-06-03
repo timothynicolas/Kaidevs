@@ -289,13 +289,13 @@
 
                         <!-- PACKAGE 3-->
 
-                        <div class="carousel-item">
+                        <div class="carousel-item special-item">
                             <div class="service-description">
                                 <p class="title">Complete Website Build</p>
                                 <p>We design and code the website for you. Simple and easy.</p>
                                 <p>We handle both the website design and development. Great for portfolios, landing pages, and basic business sites.</p>
 
-                                <button class="service-btn">Choose Plan</button>
+                                <button class="service-btn special-btn">Choose Plan</button>
                             </div>
                            
                             <hr>
