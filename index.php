@@ -63,10 +63,10 @@
                 
                 <p class="secondary-header">We are <span class="primary-header underline">Kaidevs</span></p>
 
-                <p class="subheader"></p>At Kaidevs, we believe in the principle of Kaizen—a Japanese philosophy that means “continuous improvement.” We apply this mindset to every line of code, every user interface, and every client experience.</p>
+                <p class="subheader">At Kaidevs, we believe in the principle of Kaizen—a Japanese philosophy that means “continuous improvement.” We apply this mindset to every line of code, every user interface, and every client experience.</p>
                 <br>
 
-                <p class="subheader"></p>We’re not just developers—we’re growth partners. Whether you're a startup, a small business, or an enterprise, we build websites that adapt to your goals and scale with your success.</p>
+                <p class="subheader">We’re not just developers—we’re growth partners. Whether you're a startup, a small business, or an enterprise, we build websites that adapt to your goals and scale with your success.</p>
             </section>
 
             <section class="services-text-container">
@@ -496,6 +496,242 @@
                     </div>
 
                     <button id="nextBtn" class="nav-btn">›</button>
+                </div>
+            </section>
+
+            <section class="services-plan1 plan">
+                <div class="service-desc">
+                    <p class="title">Website Design</p>
+                    <p>Already have a developer? We'll handle the design for you!</p>
+                    <p>We create a custom website that reflects your brand's personality—delivered in clean, organized Figma design file.</p>
+                    <button>Choose Plan</button>
+                </div>
+                <hr>
+                <div class="inclusion-container">
+
+                    <p class="title">Design</p>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Custom Figma Layouts</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Mobile & Desktop Design</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Brand-consistent Style Guide</p>
+                    </div>
+                    
+                </div>
+
+                <div class="inclusion-container">
+                    <p class="title">Development</p>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-xmark.svg">
+                        <p>Dev-ready Assets</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-xmark.svg">
+                        <p>Basic SEO Setup</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-xmark.svg">
+                        <p>Custom Domain & Hosting</p>
+                    </div>
+                </div>
+
+                <div class="inclusion-container">
+                    <p class="title">Advanced</p>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-xmark.svg">
+                        <p>Business Integrated System</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-xmark.svg">
+                        <p>Admin Dashboard</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-xmark.svg">
+                        <p>Database Integration</p>
+                    </div>
+                </div>
+            </section>
+            <section class="services-plan2 plan">
+                <div class="service-desc">
+                    <p class="title">Website Development</p>
+                    <p>Already got a design? We'll bring it to life!</p>
+                    <p>You provide the design—we'll handle the responsive, pixel-accurate front-end code. Ideal for static sites or dev handoff. </p>
+                    <button>Choose Plan</button>
+                </div>
+                <hr>
+                <div class="inclusion-container">
+
+                    <p class="title">Design</p>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-xmark.svg">
+                        <p>Custom Figma Layouts</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-xmark.svg">
+                        <p>Mobile & Desktop Design</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-xmark.svg">
+                        <p>Brand-consistent Style Guide</p>
+                    </div>
+                    
+                </div>
+
+                <div class="inclusion-container">
+                    <p class="title">Development</p>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Dev-ready Assets</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Basic SEO Setup</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Custom Domain & Hosting</p>
+                    </div>
+                </div>
+
+                <div class="inclusion-container">
+                    <p class="title">Advanced</p>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-xmark.svg">
+                        <p>Business Integrated System</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-xmark.svg">
+                        <p>Admin Dashboard</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-xmark.svg">
+                        <p>Database Integration</p>
+                    </div>
+                </div>
+            </section>
+            <section class="services-plan3 plan">
+                
+                <div class="popular-badge">MOST POPULAR</div> 
+
+                <div class="service-desc">
+                    <p class="title">Complete Website Build</p>
+                    <p>We design and code the website for you. Simple and Easy.</p>
+                    <p>We handle both the website design and development. Great for portfolios, landing pages, and basic business sites.</p>
+                    <button class="services-plan3-button">Choose Plan</button>
+                </div>
+                <hr>
+                <div class="inclusion-container">
+
+                    <p class="title">Design</p>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Custom Figma Layouts</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Mobile & Desktop Design</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Brand-consistent Style Guide</p>
+                    </div>
+                    
+                </div>
+
+                <div class="inclusion-container">
+                    <p class="title">Development</p>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Dev-ready Assets</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Basic SEO Setup</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Custom Domain & Hosting</p>
+                    </div>
+                </div>
+
+                <div class="inclusion-container">
+                    <p class="title">Advanced</p>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-xmark.svg">
+                        <p>Business Integrated System</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-xmark.svg">
+                        <p>Admin Dashboard</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-xmark.svg">
+                        <p>Database Integration</p>
+                    </div>
+                </div>
+            </section>
+            <section class="services-plan4 plan">
+               <div class="service-desc">
+                    <p class="title">Business Website Build</p>
+                    <p>Design, code, and advanced features—all in one.</p>
+                    <p>This package combines design, development, and powerful technologies that suit your business needs.</p>
+                    <button>Choose Plan</button>
+                </div>
+                <hr>
+                <div class="inclusion-container">
+
+                    <p class="title">Design</p>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Custom Figma Layouts</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Mobile & Desktop Design</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Brand-consistent Style Guide</p>
+                    </div>
+                    
+                </div>
+
+                <div class="inclusion-container">
+                    <p class="title">Development</p>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Dev-ready Assets</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Basic SEO Setup</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Custom Domain & Hosting</p>
+                    </div>
+                </div>
+
+                <div class="inclusion-container">
+                    <p class="title">Advanced</p>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Business Integrated System</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Admin Dashboard</p>
+                    </div>
+                    <div class="itemm">
+                        <img class="icon" src="assets/services-check.svg">
+                        <p>Database Integration</p>
+                    </div>
                 </div>
             </section>
 

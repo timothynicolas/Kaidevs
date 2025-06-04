@@ -18,7 +18,7 @@
 .grid-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 24rem 18rem 24rem 24rem 4rem 86rem;
+    grid-template-rows: 24rem 18rem 24rem 24rem 4rem 68rem;
     grid-template-areas: 
     'hero-img hero-img hero-img hero-img'
     'hero-text hero-text hero-text hero-text'
@@ -33,7 +33,7 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto; 
-    grid-gap: 16px;
+    grid-gap: 4rem 1rem;
     
 }
 
@@ -59,12 +59,17 @@
         'about-img about-img about-img about-img about-img about-img'
         'about-text about-text about-text about-text about-text about-text'
         'services-text services-text services-text services-text services-text services-text'
+        'services-carousel services-carousel services-carousel services-carousel services-carousel services-carousel'
         
         
         ;
     }
     .container{
         padding: 0px 32px;
+    }
+
+    .service-description{
+        height: 12rem;
     }
 
 }
@@ -75,18 +80,27 @@
     }
     .grid-container{
         grid-template-columns: repeat(8, 1fr);
-        grid-template-rows:24rem 24rem 4rem;
+        grid-template-rows:24rem 24rem 8rem auto auto;
         grid-template-areas: 
         
         'hero-text hero-text hero-text hero-text hero-img hero-img hero-img hero-img'
+
         'about-img about-img about-img about-img about-text about-text about-text about-text'
+
         'services-text services-text services-text services-text services-text services-text services-text services-text'
+
+        'service1 service1 service1 service1 service2 service2 service2 service2'
+
+        'service3 service3 service3 service3 service4 service4 service4 service4'
         
         
         
         ;
     }
 
+    .services-carousel-container{
+        display: none;
+    }
     
 }
 
@@ -97,14 +111,18 @@
 
     .grid-container{
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows:24rem 24rem 4rem;
+        grid-template-rows:24rem 24rem 4rem auto auto;
         grid-template-areas: 
         
         'hero-text hero-text hero-text hero-text hero-text hero-text hero-img hero-img hero-img hero-img hero-img hero-img'
+
         'about-img about-img about-img about-img about-img about-img about-text about-text about-text about-text about-text about-text'
+
         'services-text services-text services-text services-text services-text services-text services-text services-text services-text services-text services-text services-text'
+
+        'service1 service1 service1 service1 service1 service1 service2 service2 service2 service2 service2 service2'
         
-        
+        'service3 service3 service3 service3 service3 service3 service4 service4 service4 service4 service4 service4'
         
         ;
     }
@@ -113,6 +131,23 @@
 @media(min-width: 1280px){
     .container{
         padding: 0px 120px;
+    }
+
+    .grid-container{
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows:24rem 24rem 12rem auto ;
+        grid-template-areas: 
+        
+        'hero-text hero-text hero-text hero-text hero-text hero-text hero-img hero-img hero-img hero-img hero-img hero-img'
+
+        'about-img about-img about-img about-img about-img about-img about-text about-text about-text about-text about-text about-text'
+
+        'services-text services-text services-text services-text services-text services-text services-text services-text services-text services-text services-text services-text'
+
+        'service1 service1 service1 service2 service2 service2 service3 service3 service3 service4 service4 service4'
+        
+        
+        ;
     }
 }
 

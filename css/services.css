@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   grid-area: services-text;
+  align-items: center;
 }
 
 .services-carousel-container{
@@ -9,6 +10,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.services-plan1{
+	display: none;
+}
+.services-plan2{
+	display: none;
+}
+.services-plan3{
+  	display: none;
+}
+.services-plan4{
+	display: none;
+}
+
+.plan{
+  	display: none;
 }
 
 .carousel-container {
@@ -192,3 +210,160 @@
   right: 10px;
 }
 
+/* MEDIA QUERIES */
+
+@media(min-width: 375px){
+   
+}
+
+
+@media(min-width: 480px){
+   
+}
+
+@media(min-width: 640px){
+    
+
+}
+
+@media(min-width: 768px){
+	
+	.services-plan1{
+		grid-area: service1;
+	}
+	.services-plan2{
+		grid-area: service2;
+	}
+	.services-plan3{
+		position: relative;
+		grid-area: service3;
+		border-radius: 0px 0px 20px 20px !important;
+		border: 2px solid #0083FA !important;
+	}
+
+	.services-plan3-button{
+		background-color: #0083FA !important;
+		color: white !important;
+	}
+	.services-plan4{
+		grid-area: service4;
+	}
+
+	.plan{
+		display: flex;
+		flex-direction: column;
+		gap: 22px;
+		min-width: 100%;
+		padding: 40px 25px;
+		text-align: start;
+		background-color: #fafbff;
+		border-radius: 20px;
+		border: 2px solid #D5DFFF;
+	}
+
+	.plan hr{
+		height: 1px;
+		border: none;
+		background-color: #D5DFFF;
+	}
+
+	/* SERVICE DESCRIPTION */
+
+	.service-desc{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 15rem;
+	}
+
+	.service-desc .title{
+		font-size: 1.125rem;
+		font-weight: 700;
+	}
+
+	.service-desc p{
+		font-size: .875rem;
+	}
+
+	.service-desc button{
+		color: #0083FA;
+		background-color: transparent;
+		border: 2px solid #0083FA;
+		border-radius: 20px;
+		padding: 10px;
+		font-weight: 700;
+		font-size: .875rem;
+	}
+
+	
+
+	/* INCLUSIONS */
+
+	.inclusion-container{
+		display: flex;
+		flex-direction: column;
+		gap: 1.375rem;
+	}
+
+	.inclusion-container .title{
+		font-weight: 700;
+	}
+
+	.inclusion-container .itemm{
+		display: flex;
+		gap: 10px;
+	}
+
+	.itemm .icon{
+		height: 1.125rem;
+	}
+
+	.itemm p{
+		font-size: 0.875rem;
+	}
+
+	
+
+	.popular-badge {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #0083FA;
+		/* background-color: red; */
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		padding: 8px 0;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		outline: 2px solid #0083FA;
+		border-color: transparent;
+		font-size: 0.875rem;
+		position: absolute;
+		top: -50px;
+		left: 0;
+		height: 50px;
+		width: 100%;
+		z-index: 1;
+	}
+
+
+	
+
+	
+
+}
+
+@media(min-width: 1024px){
+	
+
+	
+}
+
+@media(min-width: 1280px){
+  
+}
+
+@media(min-width: 1536px){
+   
+}

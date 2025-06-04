@@ -15,6 +15,10 @@
     grid-area: about-text;
 }
 
+.subheader{
+    font-size: 1.125rem;
+}
+
 @media(min-width: 768px){
     .about-text-container{
         align-items: start;
