@@ -1,0 +1,55 @@
+.cta-text-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    grid-area: cta-text;
+    gap: 1.375rem;
+    text-align: center;
+}
+
+.cta-text-container button{
+    background-color: #0083FA;
+    border: none;
+    width: 100%;
+    font-size: .875rem;
+    padding: 1rem 1.25rem;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.cta-img-container{
+   
+    grid-area: cta-img;
+}
+
+.cta-img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+@media(min-width: 768px){
+   .cta-text-container{
+    align-items: start;
+    justify-content:space-evenly;
+    text-align: start;
+   }
+    
+}
+
+@media(min-width: 1024px){
+    
+}
+
+@media(min-width: 1280px){
+   
+    
+}
+
+@media(min-width: 1536px){
+   
+}

@@ -734,6 +734,29 @@
                     </div>
                 </div>
             </section>
+            <section class="cta-text-container">
+                <div>
+                    <p class="secondary-header">Got an Idea?  </p>
+                    <p class="secondary-header">Let's <span class="primary-header underline">Bring it to Life</span></p>
+                </div>
+                <p class="subheader">Whether you're launching a business, refreshing your brand, or need a custom site from scratch—we'll design and build a website that works for you. Tell us what you need, and we'll make it happen.</p>
+                <button>Start My Project</button>
+               
+            </section>
+            <section class="cta-img-container">
+                <img class="cta-img" src="assets/cta-img.svg">
+            </section>
+            
+            <section class="footer">
+                <hr>
+                <p>© 2025 Kaidevs, Philippines. All rights reserved.</p>
+                <div class="social-links">
+                    <img src="assets/footer-instagram.svg">
+                    <img src="assets/footer-fb.svg">
+                    <img src="assets/footer-x.svg">
+                    <img src="assets/footer-tiktok.svg">
+                </div>
+            </section>
 
             </div>  <!-- idk para san to, but the code breaks when u remove it -->
 

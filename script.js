@@ -26,7 +26,7 @@ prevBtn.addEventListener('click', () => {
   }
 });
 
-window.addEventListener('resize', updateCarousel); // Recalculate on window resize
+window.addEventListener('resize', updateCarousel); 
 
 // TOGGLE INCLUSIONS
 
@@ -37,7 +37,6 @@ toggleBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
     const isExpanded = btn.getAttribute("data-expanded") === "true";
 
-    // Toggle visibility of all .advanced-inclusions
     advancedInclusions.forEach(section => {
       section.classList.toggle('hidden', isExpanded);
     });
