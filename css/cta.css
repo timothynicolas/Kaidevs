@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.cta-text-container button{
+.cta-button {
     background-color: #0083FA;
     border: none;
     width: 100%;
@@ -18,11 +18,16 @@
     font-weight: bold;
     color: white;
     cursor: pointer;
-}
-.cta-text-container button:hover{
-    background-color: #2093ff;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
     transition: all 0.3s ease;
 }
+
+.cta-button:hover {
+    background-color: #2093ff;
+}
+
 
 .cta-img-container{
    
@@ -51,7 +56,7 @@
 }
 
 @media(min-width: 1280px){
-    .cta-text-container button{
+    .cta-button{
         width: 75%;
     }
     

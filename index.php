@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon" />
+
     
 </head>
 <body>
@@ -26,7 +30,7 @@
             
         </div>
         
-        <button class="nav-cta">Book a Call<img src="assets/navbar-call.svg" class="navbar-call-icon"></button>
+        <a href="https://calendly.com/kaidevs/consultation" target="_blank" rel="noopener noreferrer"><button class="nav-cta">Book a Call<img src="assets/navbar-call.svg" class="navbar-call-icon"></button></a>
 
         <img src="assets/navbar-hamburger.svg" class="nav-hamburger">
     
@@ -60,7 +64,7 @@
                 <p class="subheader">We craft elegant web experiences that elevate your brand — and turn visitors to customers.</p>
                 
                 <div class="hero-button-container">
-                    <a href="" class="hero-primary-btn">Book a Call</a>
+                    <a href="https://calendly.com/kaidevs/consultation" target="_blank" rel="noopener noreferrer" class="hero-primary-btn">Book a Call</a>
                     <a href="#services" class="hero-secondary-btn">See Services</a>
                 </div>
 
@@ -107,11 +111,7 @@
                                 <p class="subtitle">Design</p>
                                 <div class="item">
                                     <img class="check" src="assets/services-check.svg">
-                                    <p>Wireframes & Layout Structure</p>
-                                </div>
-                                <div class="item">
-                                    <img class="check" src="assets/services-check.svg">
-                                    <p>High-fidelity Figma Mockup</p>
+                                    <p>Custom Figma Layouts</p>
                                 </div>
                                 <div class="item">
                                     <img class="check" src="assets/services-check.svg">
@@ -119,12 +119,9 @@
                                 </div>
                                 <div class="item">
                                     <img class="check" src="assets/services-check.svg">
-                                    <p>Font & Color Palette Selection</p>
+                                    <p>Brand-consistent Style Guide</p>
                                 </div>
-                                <div class="item">
-                                    <img class="check" src="assets/services-check.svg">
-                                    <p>Brand-consistent Visuals</p>
-                                </div>
+                               
 
                             </div>
 
@@ -132,38 +129,19 @@
                                 <p class="subtitle">Development</p>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>HTML5, CSS3, and JavaScript</p>
+                                    <p>Dev-ready Assets</p>
                                 </div>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>Responsive Layout</p>
+                                    <p>Basic SEO Setup</p>
                                 </div>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>Basic Animations</p>
+                                    <p>Custom Domain & Hosting</p>
                                 </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>Dev-ready File Layoff</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>1-year Website Hosting</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>Custom Domain Name</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>Basic SEO</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>Website SEO Certificate</p>
-                                </div>
+                                
                             </div>
-                            <div class="advanced-inclusions hidden">
+                            <div class="advanced-inclusions">
                                 <p class="subtitle">Advanced</p>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-xmark.svg">
@@ -175,22 +153,13 @@
                                 </div>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>E-commerce Functionality </p>
+                                    <p>Account Management</p>
                                 </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>Online Booking System</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>Database Integration</p>
-                                </div>
-                                
                             </div>
-                            <button class="expand" data-expanded="false">
+                            <!-- <button class="expand" data-expanded="false">
                                 See all inclusions
                                 <img src="assets/services-angle-down.svg">
-                            </button>
+                            </button> -->
 
                         </div>
 
@@ -211,11 +180,7 @@
                                 <p class="subtitle">Design</p>
                                 <div class="item">
                                     <img class="check" src="assets/services-xmark.svg">
-                                    <p>Wireframes & Layout Structure</p>
-                                </div>
-                                <div class="item">
-                                    <img class="check" src="assets/services-xmark.svg">
-                                    <p>High-fidelity Figma Mockup</p>
+                                    <p>Custom Figma Layouts</p>
                                 </div>
                                 <div class="item">
                                     <img class="check" src="assets/services-xmark.svg">
@@ -223,12 +188,9 @@
                                 </div>
                                 <div class="item">
                                     <img class="check" src="assets/services-xmark.svg">
-                                    <p>Font & Color Palette Selection</p>
+                                    <p>Brand-consistent Style Guide</p>
                                 </div>
-                                <div class="item">
-                                    <img class="check" src="assets/services-xmark.svg">
-                                    <p>Brand-consistent Visuals</p>
-                                </div>
+                               
 
                             </div>
 
@@ -236,38 +198,19 @@
                                 <p class="subtitle">Development</p>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-check.svg">
-                                    <p>HTML5, CSS3, and JavaScript</p>
+                                    <p>Dev-ready Assets</p>
                                 </div>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-check.svg">
-                                    <p>Responsive Layout</p>
+                                    <p>Basic SEO Setup</p>
                                 </div>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-check.svg">
-                                    <p>Basic Animations</p>
+                                    <p>Custom Domain & Hosting</p>
                                 </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>Dev-ready File Layoff</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>1-year Website Hosting</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>Custom Domain Name</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>Basic SEO</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>Website SEO Certificate</p>
-                                </div>
+                                
                             </div>
-                            <div class="advanced-inclusions hidden">
+                            <div class="advanced-inclusions">
                                 <p class="subtitle">Advanced</p>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-xmark.svg">
@@ -279,28 +222,20 @@
                                 </div>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>E-commerce Functionality </p>
+                                    <p>Account Management</p>
                                 </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>Online Booking System</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>Database Integration</p>
-                                </div>
-                                
                             </div>
-                            <button class="expand" data-expanded="false">
+                            <!-- <button class="expand" data-expanded="false">
                                 See all inclusions
                                 <img src="assets/services-angle-down.svg">
-                            </button>
+                            </button> -->
 
                         </div>
 
                         <!-- PACKAGE 3-->
 
                         <div class="carousel-item special-item">
+                            <!-- <div class="popular-badge">MOST POPULAR</div> -->
                             <div class="service-description">
                                 <p class="title">Complete Website Build</p>
                                 <p>We design and code the website for you. Simple and easy.</p>
@@ -315,11 +250,7 @@
                                 <p class="subtitle">Design</p>
                                 <div class="item">
                                     <img class="check" src="assets/services-check.svg">
-                                    <p>Wireframes & Layout Structure</p>
-                                </div>
-                                <div class="item">
-                                    <img class="check" src="assets/services-check.svg">
-                                    <p>High-fidelity Figma Mockup</p>
+                                    <p>Custom Figma Layouts</p>
                                 </div>
                                 <div class="item">
                                     <img class="check" src="assets/services-check.svg">
@@ -327,12 +258,9 @@
                                 </div>
                                 <div class="item">
                                     <img class="check" src="assets/services-check.svg">
-                                    <p>Font & Color Palette Selection</p>
+                                    <p>Brand-consistent Style Guide</p>
                                 </div>
-                                <div class="item">
-                                    <img class="check" src="assets/services-check.svg">
-                                    <p>Brand-consistent Visuals</p>
-                                </div>
+                               
 
                             </div>
 
@@ -340,38 +268,19 @@
                                 <p class="subtitle">Development</p>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-check.svg">
-                                    <p>HTML5, CSS3, and JavaScript</p>
+                                    <p>Dev-ready Assets</p>
                                 </div>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-check.svg">
-                                    <p>Responsive Layout</p>
+                                    <p>Basic SEO Setup</p>
                                 </div>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-check.svg">
-                                    <p>Basic Animations</p>
+                                    <p>Custom Domain & Hosting</p>
                                 </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>Dev-ready File Layoff</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>1-year Website Hosting</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>Custom Domain Name</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>Basic SEO</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>Website SEO Certificate</p>
-                                </div>
+                                
                             </div>
-                            <div class="advanced-inclusions hidden">
+                            <div class="advanced-inclusions">
                                 <p class="subtitle">Advanced</p>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-xmark.svg">
@@ -383,22 +292,13 @@
                                 </div>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>E-commerce Functionality </p>
+                                    <p>Account Management</p>
                                 </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>Online Booking System</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-xmark.svg">
-                                    <p>Database Integration</p>
-                                </div>
-                                
                             </div>
-                            <button class="expand" data-expanded="false">
+                            <!-- <button class="expand" data-expanded="false">
                                 See all inclusions
                                 <img src="assets/services-angle-down.svg">
-                            </button>
+                            </button> -->
 
                         </div>
 
@@ -419,11 +319,7 @@
                                 <p class="subtitle">Design</p>
                                 <div class="item">
                                     <img class="check" src="assets/services-check.svg">
-                                    <p>Wireframes & Layout Structure</p>
-                                </div>
-                                <div class="item">
-                                    <img class="check" src="assets/services-check.svg">
-                                    <p>High-fidelity Figma Mockup</p>
+                                    <p>Custom Figma Layouts</p>
                                 </div>
                                 <div class="item">
                                     <img class="check" src="assets/services-check.svg">
@@ -431,12 +327,9 @@
                                 </div>
                                 <div class="item">
                                     <img class="check" src="assets/services-check.svg">
-                                    <p>Font & Color Palette Selection</p>
+                                    <p>Brand-consistent Style Guide</p>
                                 </div>
-                                <div class="item">
-                                    <img class="check" src="assets/services-check.svg">
-                                    <p>Brand-consistent Visuals</p>
-                                </div>
+                               
 
                             </div>
 
@@ -444,38 +337,19 @@
                                 <p class="subtitle">Development</p>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-check.svg">
-                                    <p>HTML5, CSS3, and JavaScript</p>
+                                    <p>Dev-ready Assets</p>
                                 </div>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-check.svg">
-                                    <p>Responsive Layout</p>
+                                    <p>Basic SEO Setup</p>
                                 </div>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-check.svg">
-                                    <p>Basic Animations</p>
+                                    <p>Custom Domain & Hosting</p>
                                 </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>Dev-ready File Layoff</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>1-year Website Hosting</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>Custom Domain Name</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>Basic SEO</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>Website SEO Certificate</p>
-                                </div>
+                                
                             </div>
-                            <div class="advanced-inclusions hidden">
+                            <div class="advanced-inclusions">
                                 <p class="subtitle">Advanced</p>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-check.svg">
@@ -487,22 +361,13 @@
                                 </div>
                                 <div class="item">
                                     <img class="xmark" src="assets/services-check.svg">
-                                    <p>E-commerce Functionality </p>
+                                    <p>Account Management</p>
                                 </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>Online Booking System</p>
-                                </div>
-                                <div class="item">
-                                    <img class="xmark" src="assets/services-check.svg">
-                                    <p>Database Integration</p>
-                                </div>
-                                
                             </div>
-                            <button class="expand" data-expanded="false">
+                            <!-- <button class="expand" data-expanded="false">
                                 See all inclusions
                                 <img src="assets/services-angle-down.svg">
-                            </button>
+                            </button> -->
                         </div>
                     </div>
 
@@ -751,7 +616,8 @@
                     <p class="secondary-header">Let's <span class="primary-header underline">Bring it to Life</span></p>
                 </div>
                 <p class="subheader">Whether you're launching a business, refreshing your brand, or need a custom site from scratch—we'll design and build a website that works for you. Tell us what you need, and we'll make it happen.</p>
-                <button>Start My Project</button>
+                <a href="https://calendly.com/kaidevs/consultation" class="cta-button" target="_blank" rel="noopener noreferrer">Start My Project</a>
+
                
             </section>
             <section class="cta-img-container">

@@ -25,7 +25,7 @@ html{
 .grid-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 24rem 18rem 24rem 24rem 4rem 68rem auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
     grid-template-areas: 
     'hero-img hero-img hero-img hero-img'
 

@@ -35,23 +35,17 @@
 .carousel-container {
   position: relative;
   width: 100%;
-  /* max-width: 800px; */
-  /* overflow: hidden; */
+ 
   overflow-x: auto; 
-  /* border-radius: 20px; */
-  /* border: 2px solid red; */
-  /* box-shadow: 0 0 15px rgba(0,0,0,0.1); */
-  /* background-color: rebeccapurple; */
+ 
   scroll-snap-type: x mandatory; 
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
 }
 
 .carousel-track {
   display: flex;
-  /* gap: 20px; */
   transition: transform 0.5s ease-in-out;
-  /* overflow-x: auto;  */
-  
-  /* background-color: chartreuse; */
 }
 
 .carousel-item {
@@ -64,11 +58,11 @@
   text-align: start;
   background-color: #fafbff;
   border-radius: 20px;
-  /* border-right: 1px solid #cbd5e1; */
   border: 2px solid #D5DFFF;
 }
 
 .special-item{
+	position: relative;
   border: 2px solid #0083FA;
 }
 
@@ -124,6 +118,29 @@
 
 .design-inclusions .check{
   height: 1.125rem
+}
+
+/* MOST POPULAR */
+.popular-badge {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #0083FA;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding: 8px 0;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	outline: 2px solid #0083FA;
+	border-color: transparent;
+	font-size: 0.875rem;
+	position: absolute;
+	top: -50px;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	z-index: 1;
 }
 
 /* DEVELOPMENT INCLUSIONS */
@@ -196,7 +213,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0, 0, 255, 0.15);
+  background:  rgba(0, 131, 250, 0.30);
   border: none;
   border-radius: 50%;
   font-size: 2rem;
