@@ -26,6 +26,12 @@
 .navbar .logo{
     font-family: 'Cal Sans';
     font-size: 1.50rem;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .nav-links{
@@ -81,10 +87,12 @@
 
     .nav-links button:hover{
         border: none;
-        color: #0083FA;
+        color: #0083FF;
         font-family: "Inter";
         font-size: .875rem;
         background-color: #ebf5ff;
+        transition: all 0.3s ease;
+
     }
 
     .nav-links button:active{
@@ -114,6 +122,8 @@
 
     .nav-cta:hover{
         background-color:#2093ff;
+        transition: all 0.3s ease;
+
     }
 
     .nav-hamburger{

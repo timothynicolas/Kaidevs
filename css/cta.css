@@ -1,6 +1,6 @@
 .cta-text-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
     grid-area: cta-text;
@@ -17,6 +17,11 @@
     border-radius: 50px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
+}
+.cta-text-container button:hover{
+    background-color: #2093ff;
+    transition: all 0.3s ease;
 }
 
 .cta-img-container{
@@ -46,7 +51,9 @@
 }
 
 @media(min-width: 1280px){
-   
+    .cta-text-container button{
+        width: 75%;
+    }
     
 }
 

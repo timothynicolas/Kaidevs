@@ -16,13 +16,14 @@
 <body>
     <div class="container navbar-container">
         <nav class="navbar ">
-        <p class="logo">Kaidevs</p>
+        <a href="#"><p class="logo">Kaidevs</p></a>
 
         <div class="nav-links">
-            <button>About</button>
-            <button>Services</button>
-            <button>Reviews</button>
-            <button>Portfolio</button>
+            <a href="#about"><button>About</button></a>
+            <a href="#services"><button>Services</button></a>
+            <button popovertarget="modalUnavailable">Reviews</button>
+            <button popovertarget="modalUnavailable">Portfolio</button>
+            
         </div>
         
         <button class="nav-cta">Book a Call<img src="assets/navbar-call.svg" class="navbar-call-icon"></button>
@@ -32,9 +33,19 @@
         </nav>
         
     </div>
+    <div id="modalUnavailable" popover class="modal-overlay">
+        <div class="modal-content">
+            <img class="modal-icon" src="assets/modal-wrench.svg">
+            <p class="modal-title">Coming Soon!</p>
+            <p>This part of our site isn’t live yet — just like your dream website, it's <em>still in the works</em>.</p>
+            <button popovertarget="modalUnavailable" popovertargetaction="hide" class="modal-button">Close</button>
+        </div>
+    </div> 
 
     <div class="container">
         <div class="grid-container">
+
+            
 
             <section class="hero-image-container">
                 <img class="hero-image" src="assets/hero-image.svg">
@@ -49,13 +60,13 @@
                 <p class="subheader">We craft elegant web experiences that elevate your brand — and turn visitors to customers.</p>
                 
                 <div class="hero-button-container">
-                    <button class="hero-primary-btn">Book a Call</button>
-                    <button class="hero-secondary-btn">See Services</button>
+                    <a href="" class="hero-primary-btn">Book a Call</a>
+                    <a href="#services" class="hero-secondary-btn">See Services</a>
                 </div>
 
             </section>
 
-            <section class="about-image-container">
+            <section class="about-image-container" id="about">
                 <img class="hero-image" src="assets/about-image.svg">
             </section>
             
@@ -69,7 +80,7 @@
                 <p class="subheader">We’re not just developers—we’re growth partners. Whether you're a startup, a small business, or an enterprise, we build websites that adapt to your goals and scale with your success.</p>
             </section>
 
-            <section class="services-text-container">
+            <section class="services-text-container" id="services">
                 <p class="secondary-header">Our <span class="primary-header underline">Services</span></p>
             </section>
 
@@ -747,18 +758,8 @@
                 <img class="cta-img" src="assets/cta-img.svg">
             </section>
             
-            <section class="footer">
-                <hr>
-                <div class="footer-content">
-                    <p>© 2025 Kaidevs, Philippines. All rights reserved.</p>
-                    <div class="social-links">
-                        <img src="assets/footer-instagram.svg">
-                        <img src="assets/footer-fb.svg">
-                        <img src="assets/footer-x.svg">
-                        <img src="assets/footer-tiktok.svg" style="height: 1.5rem">
-                    </div>
-                </div>
-            </section>
+            
+            <?php include 'components/footer.php'; ?>
 
             </div>  <!-- idk para san to, but the code breaks when u remove it -->
 

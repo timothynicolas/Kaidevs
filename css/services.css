@@ -1,3 +1,6 @@
+#services{
+    scroll-margin-top: 50px;
+}
 .services-text-container{
   display: flex;
   justify-content: center;
@@ -244,6 +247,11 @@
 	.services-plan3-button{
 		background-color: #0083FA !important;
 		color: white !important;
+		cursor: pointer;
+	}
+	.services-plan3-button:hover{
+		background-color: #2093ff !important;
+		border-color: #2093ff;
 	}
 	.services-plan4{
 		grid-area: service4;
@@ -293,6 +301,13 @@
 		padding: 10px;
 		font-weight: 700;
 		font-size: .875rem;
+		cursor: pointer;
+	}
+
+	.service-desc button:hover {
+		background-color: #0083FA;
+		color: white;
+		transition: background-color 0.2s ease, color 0.2s ease;
 	}
 
 	
