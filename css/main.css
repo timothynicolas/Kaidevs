@@ -138,7 +138,7 @@
 
     .grid-container{
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows:24rem 24rem 4rem auto auto auto;
+        grid-template-rows:24rem 24rem 4rem auto auto auto auto;
         grid-template-areas: 
         
         'hero-text hero-text hero-text hero-text hero-text hero-text hero-img hero-img hero-img hero-img hero-img hero-img'
@@ -152,6 +152,8 @@
         'service3 service3 service3 service3 service3 service3 service4 service4 service4 service4 service4 service4'
 
         'cta-text cta-text cta-text cta-text cta-text cta-img cta-img cta-img cta-img cta-img cta-img cta-img'
+
+        'footer footer footer footer footer footer footer footer footer footer footer footer'
         
         ;
     }
@@ -164,7 +166,7 @@
 
     .grid-container{
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows:24rem 24rem 12rem auto auto;
+        grid-template-rows:24rem 24rem 12rem auto auto auto;
         grid-template-areas: 
         
         'hero-text hero-text hero-text hero-text hero-text hero-text hero-img hero-img hero-img hero-img hero-img hero-img'
@@ -176,6 +178,8 @@
         'service1 service1 service1 service2 service2 service2 service3 service3 service3 service4 service4 service4'
 
         'cta-text cta-text cta-text cta-text cta-text cta-img cta-img cta-img cta-img cta-img cta-img cta-img'
+
+        'footer footer footer footer footer footer footer footer footer footer footer footer'
         
         
         ;
