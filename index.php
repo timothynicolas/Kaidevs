@@ -32,7 +32,9 @@
         
         <a href="https://calendly.com/kaidevs/consultation" target="_blank" rel="noopener noreferrer"><button class="nav-cta">Book a Call<img src="assets/navbar-call.svg" class="navbar-call-icon"></button></a>
 
-        <img src="assets/navbar-hamburger.svg" class="nav-hamburger">
+        <button class="hamburger-button">
+            <img src="assets/navbar-hamburger.svg" class="nav-hamburger">
+        </button>
     
         </nav>
         
@@ -45,6 +47,32 @@
             <button popovertarget="modalUnavailable" popovertargetaction="hide" class="modal-button">Close</button>
         </div>
     </div> 
+
+    <section class=" container mobile-navbar">
+        <div class="header-container">
+
+            <p class="logo">Kaidevs</p>
+            <button id="mobile-xmark">
+                <img src="assets/mobile-navbar-xmark.svg">
+            </button>
+        </div>
+        <div class="mobile-navbar-content">
+            <ul>
+                <li><img src="assets/mobile-navbar-house.svg" alt="home icon">Home</li>
+                <li><img src="assets/mobile-navbar-about.svg" alt="home icon">About</li>
+                <li><img src="assets/mobile-navbar-services.svg" alt="home icon">Services</li>
+                <li><img src="assets/mobile-navbar-reviews.svg" alt="home icon">Reviews</li>
+                <li><img src="assets/mobile-navbar-portfolio.svg" alt="home icon">Portfolio</li>
+                
+            </ul>
+            <div class="btn-container">
+                 <a href="https://calendly.com/kaidevs/consultation" target="_blank" rel="noopener noreferrer"><button class="hero-primary-btn">Book a Call</button></a>
+                <button class="hero-secondary-btn">Services</button>
+            </div>
+            
+        </div>
+       
+    </section>
 
     <div class="container">
         <div class="grid-container">
@@ -633,7 +661,7 @@
         </div> <!-- grid-container -->
     </div> <!-- container -->
 
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 
 </body>
 </html>

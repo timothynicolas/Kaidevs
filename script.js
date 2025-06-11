@@ -1,3 +1,5 @@
+import {showMobileNavbar, hideMobileNavbar} from './js/toggleMobileNavbar.js';
+
 const track = document.querySelector('.carousel-track');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
@@ -54,7 +56,12 @@ toggleBtns.forEach((btn) => {
   });
 });
 
+// TOGGLE MOBILE NAVBAR
 
-const sampol = document.querySelector('.services-carousel-container');
-console.log(sampol.clientWidth);
+const mobileNavBtn = document.querySelector('.hamburger-button');
+const xmarkMobileNav = document.getElementById('mobile-xmark');
+
+    
+mobileNavBtn.addEventListener('click', showMobileNavbar);
+xmarkMobileNav.addEventListener('click', hideMobileNavbar);
 
