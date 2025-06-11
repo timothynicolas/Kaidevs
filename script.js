@@ -65,3 +65,8 @@ const xmarkMobileNav = document.getElementById('mobile-xmark');
 mobileNavBtn.addEventListener('click', showMobileNavbar);
 xmarkMobileNav.addEventListener('click', hideMobileNavbar);
 
+let mobileNavItems = document.querySelectorAll('.mobile-navbar-item');
+
+mobileNavItems.forEach((item) => {
+  item.addEventListener('click', hideMobileNavbar)
+});
