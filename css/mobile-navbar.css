@@ -30,7 +30,7 @@ body.no-scroll {
     background-color: white;
     transition: transform 0.3s ease-in-out;
     transform: translateX(100%);
-    z-index: 100;
+    z-index: 9999;
     display: block; /* keep it in the flow */
 }
 

@@ -7,6 +7,9 @@
     gap: 1.375rem;
     text-align: center;
 }
+.cta-text-container .subheader{
+    line-height: 1.75rem;
+}
 
 .cta-button {
     background-color: #0083FA;

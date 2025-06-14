@@ -1,4 +1,4 @@
- <footer class="footer">
+<footer class="footer">
     <hr>
     <div class="footer-content">
         <p>© <?= date("Y") ?> Kaidevs, Philippines. All rights reserved.</p>

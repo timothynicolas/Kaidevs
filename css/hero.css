@@ -27,6 +27,10 @@
     /* border: 1px solid red; */
 }
 
+.hero-text-container .subheader{
+    line-height: 1.75;
+}
+
 .primary-header{
     font-size: 2rem;
     font-family: 'Cal Sans';
@@ -64,6 +68,7 @@
     font-weight: bold;
     color: white;
     text-align: center;
+    transition: all 0.3s ease-in-out;
 }
 .hero-primary-btn:hover{
     background-color: #2093ff;
@@ -80,10 +85,14 @@
     font-weight: bold;
     text-align: center;
 }
-/* .hero-secondary-btn:hover{
-    color: #0083FA;
-    background-color: #ebf5ff;
-} */
+.hero-secondary-btn:hover {
+    background-color: #ebf5ff; /* soft blue background */
+    color: #0083FA; /* match your primary brand color */
+    border-color: #0083FA; /* also update the border color for consistency */
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
 
 /* MEDIA QUERIES */
 
